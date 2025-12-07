@@ -45,7 +45,7 @@ const LicensesPage = () => {
         {
         id: 4,
             type: "UDYAM CERTIFICATION",
-            number: "UDYAM-UP-59-008****", 
+            number: "UDYAM-UP-59-008**** ", 
             status: "Active",
             issueDate: "12-10-2025",
             authority: "UDYAM REGISTRATION CERTIFICATION",
