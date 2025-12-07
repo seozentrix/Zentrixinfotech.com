@@ -2,6 +2,11 @@
 
 import { useState, useEffect, useRef } from 'react';
 
+// export const metadata = {
+//  title: "Why Choose Zentrix Infotech – Trusted IT & Marketing Partner",
+//   description: "Discover why clients choose Zentrix Infotech for software development, digital marketing, reliability, innovation and business growth."
+// };
+
 export default function TimelineServices() {
     const [scrollProgress, setScrollProgress] = useState(0);
     const [activeIcons, setActiveIcons] = useState([]);

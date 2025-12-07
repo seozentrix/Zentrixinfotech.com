@@ -4,12 +4,17 @@ import React from 'react';
 import { Shield, CheckCircle, FileText, Building, Calendar, Award } from 'lucide-react';
 
 
+// export const metadata = {title: "Licenses & Certifications – Zentrix Infotech",description: "View licenses, registrations and official certifications of Zentrix Infotech."};
+
+
+
+
 const LicensesPage = () => {
     const licenses = [
         {
             id: 1,
             type: "GST REGISTRATION",
-            number: "09AAEFZO930E1ZA", 
+            number: "09AA*F***30*1Z*", 
             status: "Active",
             issueDate: "02-10-2025",
             authority: "Goods and Services Tax Network",
@@ -20,7 +25,7 @@ const LicensesPage = () => {
         {
             id: 2,
             type: "LLP PIN",
-            number: "ACP-5349", 
+            number: "ACP-5349",
             status: "Active",
             issueDate: "30-06-2025",
             authority: "LLP Identification Number",
@@ -30,7 +35,7 @@ const LicensesPage = () => {
         {
         id: 3,
             type: "PAN",
-            number: "AAEFZ0930E", 
+            number: "AA*F***30*", 
             status: "Active",
             issueDate: "30-06-2025",
             authority: "e - Permanent Account Number",
@@ -40,7 +45,7 @@ const LicensesPage = () => {
         {
         id: 4,
             type: "UDYAM CERTIFICATION",
-            number: "UDYAM-UP-59-0086331", 
+            number: "UDYAM-UP-59-008****", 
             status: "Active",
             issueDate: "12-10-2025",
             authority: "UDYAM REGISTRATION CERTIFICATION",

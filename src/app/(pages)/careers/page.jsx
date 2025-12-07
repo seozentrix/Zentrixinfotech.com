@@ -21,6 +21,9 @@ import {
   ExternalLink
 } from 'lucide-react';
 
+// export const metadata = {title: "Careers at Zentrix Infotech – Join Our Team",description: "Explore job opportunities at Zentrix Infotech and build your career in software development and digital marketing."};
+
+
 
 const CareersPage = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -51,7 +54,7 @@ const CareersPage = () => {
     {
       id: 2,
       title: 'PHP Backend Developer',
-      location: 'Gurugram / Remote',
+      location: 'Ghaziabad / Remote',
       type: 'Intern Based',
       salary: 'Stipend',
       description: 'Build robust, scalable backend systems using PHP and modern frameworks. Develop RESTful APIs, optimize database performance, and ensure secure, maintainable code architecture.',

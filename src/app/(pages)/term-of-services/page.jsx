@@ -4,6 +4,9 @@ import React from 'react';
 import { Shield, AlertTriangle, Users, Lock, FileText, CheckCircle, Code, Smartphone, Palette, Cloud, TrendingUp, Globe } from 'lucide-react';
 
 
+// export const metadata = {title: "Terms of Service – Zentrix Infotech",description: "Zentrix Infotech terms of service outlining usage rules, responsibilities and service agreements."};
+
+
 const TermsOfService = () => {
   return (
     <div className="min-h-screen bg-white py-20">

@@ -3,6 +3,9 @@
 import React, { useState, useEffect } from 'react';
 import { Calendar, Clock, User, Share2, Facebook, Twitter, Linkedin, Instagram, CheckCircle } from 'lucide-react';
 
+// export const metadata = {title: "How Local Businesses Can Use Digital Marketing to Get More Customers | Zentrix Infotech",description: "Learn proven digital marketing strategies that help local businesses attract more customers, increase visibility and grow revenue using SEO, social media and Google Business."};
+
+
 const BlogContent = () => {
     const [activeHeading, setActiveHeading] = useState('');
 

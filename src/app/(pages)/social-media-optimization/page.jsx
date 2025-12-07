@@ -12,6 +12,9 @@ import {
     Instagram
 } from 'lucide-react';
 
+// export const metadata = {title: "Social Media Optimization Services – Zentrix Infotech",description: "Grow your brand on Facebook, Instagram and LinkedIn with professional social media optimization services."};
+
+
 const SocialMediaLanding = () => {
     const [visibleCards, setVisibleCards] = useState(new Set());
 

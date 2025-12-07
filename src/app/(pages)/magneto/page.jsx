@@ -4,6 +4,9 @@ import React, { useState, useEffect } from 'react';
 import { Globe, Palette, Code, Database, Headphones, Zap, ShoppingCart, Package, Settings } from 'lucide-react';
 import Banner from '@/components/Banner';
 
+// export const metadata = {title: "Magento Development Company – Zentrix Infotech",description: "Custom Magento ecommerce development services to build scalable online stores with high conversion performance."};
+
+
 const Hero = () => {
     return (
         <>

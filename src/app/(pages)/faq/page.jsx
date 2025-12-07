@@ -3,6 +3,9 @@
 import { useState, useRef } from 'react';
 import { useRouter } from "next/navigation";
 
+// export const metadata = {title: "FAQs – Zentrix Infotech Services & Support",description: "Find answers to frequently asked questions about our services, pricing, processes and support."};
+
+
 export default function FAQSection() {
     const [openItems, setOpenItems] = useState({});
     const itemRefs = useRef({});

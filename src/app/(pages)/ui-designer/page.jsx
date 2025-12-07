@@ -4,6 +4,10 @@ import React, { useState, useEffect } from 'react';
 import { Eye, Brain, Palette, Users, MousePointer, Smartphone, Monitor, Zap, Target, Code, Layers, BarChart3, ArrowRight, ChevronDown, Play, Pause } from 'lucide-react';
 
 
+// export const metadata = {title: "UI/UX Design Company – Zentrix Infotech",description: "Professional UI/UX design services that improve user experience, conversion rates and brand trust."};
+
+
+
 const UIDesigner = () => {
     const [isAnimating, setIsAnimating] = useState(true);
     const [currentProcess, setCurrentProcess] = useState(0);

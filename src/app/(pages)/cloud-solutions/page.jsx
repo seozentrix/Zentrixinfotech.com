@@ -20,6 +20,9 @@ import {
 } from 'react-icons/fa';
 
 
+// export const metadata = {title: "Cloud Solutions & Services – Zentrix Infotech",description: "Secure cloud solutions, cloud migration and cloud application development services by Zentrix Infotech for modern enterprises."};
+
+
 const CloudServicesPage = () => {
   const [activeService, setActiveService] = useState(0);
   const [metrics, setMetrics] = useState({ cpu: 67, memory: 84, network: 45, storage: 72 });

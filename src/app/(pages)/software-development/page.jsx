@@ -36,6 +36,9 @@ import {
   SiNextdotjs,
 } from "react-icons/si";
 
+// export const metadata = {title: "Software Development Company – Zentrix Infotech",description: "Custom software development services by Zentrix Infotech for startups and enterprises. Build scalable, secure and high-performance solutions."};
+
+
 const SoftwareDevelopmentPage = () => {
   const [activeTab, setActiveTab] = useState('overview');
   const [animatedStats, setAnimatedStats] = useState({

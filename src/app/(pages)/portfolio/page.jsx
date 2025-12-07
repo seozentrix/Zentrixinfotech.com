@@ -3,11 +3,14 @@
 import { useRouter } from 'next/navigation';
 import React, { useState, useEffect, useRef } from 'react';
 
-const Portfolios = () => {
+// export const metadata = {title: "Our Portfolio – Zentrix Infotech Projects",description: "Explore our portfolio showcasing successful software, web, mobile and digital marketing projects."};
+
+
+const portfolio = () => {
     const router = useRouter();
 
     const handleNavigate = () => {
-        router.push("/portfolios");
+        router.push("/portfolio");
     }
 
     const [visibleItems, setVisibleItems] = useState(new Set());
@@ -375,7 +378,7 @@ const Portfolios = () => {
                         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-semibold text-gray-900 leading-tight mb-3 sm:mb-4 px-4">
                             OUR{' '}
                             <span className="bg-linear-to-r from-[#f56a6a] via-[#f04393] to-[#3d1b88] bg-clip-text text-transparent">
-                                PORTFOLIOS
+                                portfolio
                             </span>
                         </h2>
                         <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed px-4">
@@ -434,4 +437,4 @@ const Portfolios = () => {
     );
 };
 
-export default Portfolios;
+export default portfolio;

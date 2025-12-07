@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import { Shield, Eye, Lock, Users, Database, Globe, ChevronRight, ArrowUp, Menu, X } from 'lucide-react';
 
+// export const metadata = {title: "Privacy Policy – Zentrix Infotech",description: "Read Zentrix Infotech’s privacy policy to understand how we collect, use and protect your data."};
+
 
 
 const PrivacyPolicy = () => {

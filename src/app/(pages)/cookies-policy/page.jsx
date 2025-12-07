@@ -6,6 +6,9 @@ import { Shield, Cookie, Settings, Eye, BarChart3, Globe, ChevronDown, ChevronUp
 import Navbar from '@/components/Navbar';
 
 
+// export const metadata = {title: "Cookies Policy – Zentrix Infotech",description: "Learn how Zentrix Infotech uses cookies to enhance browsing experience and website performance."};
+
+
 const CookiesPolicy = () => {
     const [expandedSections, setExpandedSections] = useState({});
     const [cookieSettings, setCookieSettings] = useState({

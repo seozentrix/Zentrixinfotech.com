@@ -3,11 +3,11 @@
 import { useRouter } from 'next/navigation';
 import React, { useState, useEffect, useRef } from 'react';
 
-const Portfolios = () => {
+const portfolio = () => {
     const router = useRouter();
 
     const handleNavigate = () => {
-        router.push("/portfolios");
+        router.push("/portfolio");
     }
 
     const [visibleItems, setVisibleItems] = useState(new Set());
@@ -238,7 +238,7 @@ const Portfolios = () => {
                     <h2 className="text-4xl  md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-4 lg:mb-6 tracking-tight px-4">
                         Our{' '}
                         <span className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif mb-4 lg:mb-6 tracking-tight">
-                            Portfolios
+                            portfolio
                         </span>
                     </h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
@@ -312,4 +312,4 @@ const Portfolios = () => {
     );
 };
 
-export default Portfolios;
+export default portfolio;

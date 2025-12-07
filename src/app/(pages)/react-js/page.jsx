@@ -4,6 +4,8 @@ import React, { useState, useEffect } from 'react';
 import { Gamepad2, Globe, Smartphone, Palette, Code, Database, Tablet, Headphones, Component, Layers, Zap } from 'lucide-react';
 import Banner from '@/components/Banner';
 
+// export const metadata = {title: "React.js Development Company – Zentrix Infotech",description: "Zentrix Infotech provides custom React.js development services for scalable, high-performance web applications."};
+
 const Hero = () => {
     return (
         <>

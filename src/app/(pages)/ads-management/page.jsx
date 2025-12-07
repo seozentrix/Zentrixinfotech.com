@@ -13,6 +13,9 @@ import {
     TrendingUp
 } from 'lucide-react';
 
+// export const metadata = {title: "Google & Meta Ads Management – Zentrix Infotech",description: "High-ROI Google Ads and social media ads management services to boost sales and online visibility."};
+
+
 const GoogleAds = () => {
     const [visibleCards, setVisibleCards] = useState(new Set());
     const observerRef = useRef(null);

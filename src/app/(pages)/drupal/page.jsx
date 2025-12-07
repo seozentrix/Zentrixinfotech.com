@@ -4,6 +4,9 @@ import React, { useState, useEffect } from 'react';
 import { Globe, Smartphone, Palette, Code, Database, Tablet, Headphones, Layers, Zap } from 'lucide-react';
 import Banner from '@/components/Banner';
 
+// export const metadata = {title: "Drupal Development Company – Zentrix Infotech",description: "Enterprise Drupal development services for secure CMS websites and content-driven platforms."};
+
+
 const Hero = () => {
     return (
         <>

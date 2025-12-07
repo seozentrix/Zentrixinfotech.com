@@ -5,6 +5,9 @@ import { Smartphone, Code, Palette, Shield, Zap, Globe, Users, BarChart3, Play, 
 
 import { motion } from "framer-motion";
 
+// export const metadata = {title: "iOS App Development – Zentrix Infotech",description: "Professional iOS app development services for iPhone and iPad using latest Apple technologies to deliver secure mobile solutions."};
+
+
 const iOSDevelopment = () => {
   const [codeIndex, setCodeIndex] = useState(0);
 

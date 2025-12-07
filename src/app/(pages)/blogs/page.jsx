@@ -4,6 +4,13 @@ import { useRouter } from 'next/navigation';
 import React, { useState, useMemo } from 'react';
 import { Search, Clock, Calendar, Tag } from 'lucide-react';
 
+
+// export const metadata = {
+//  title: "Technology & Digital Marketing Blogs – Zentrix Infotech",
+//  description: "Latest blogs on software development, SEO, digital marketing, cloud technology and business growth."
+// };
+
+
 const BlogSection = () => {
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedCategory, setSelectedCategory] = useState('All');

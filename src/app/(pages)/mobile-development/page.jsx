@@ -5,6 +5,9 @@ import { ArrowLeft, Smartphone, Code, Palette, Shield, Zap, Globe, Users, BarCha
 
 import { motion } from "framer-motion";
 
+// export const metadata = {title: "Mobile App Development Company – Zentrix Infotech",description: "Zentrix Infotech delivers Android & iOS mobile app development services with high performance, security and scalability."};
+
+
 const MobileAppDevelopment = () => {
   const [activeTab, setActiveTab] = useState('overview');
   const [selectedPlatform, setSelectedPlatform] = useState('ios');

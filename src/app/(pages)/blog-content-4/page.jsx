@@ -3,6 +3,10 @@
 import React, { useState, useEffect } from 'react';
 import { Calendar, Clock, User, Share2, Facebook, Twitter, Linkedin,Instagram, Link, CheckCircle, Palette, Eye, Heart, TrendingUp, Award, Star, Target, Lightbulb } from 'lucide-react';
 
+// export const metadata = {title: "Brand Identity Design: Creating Memorable Business Logos | Zentrix Infotech",description: "Learn how powerful brand identity and logo design influence customer trust, recognition and long-term business success."};
+
+
+
 const BrandingBlogContent = () => {
     const [activeHeading, setActiveHeading] = useState('');
 

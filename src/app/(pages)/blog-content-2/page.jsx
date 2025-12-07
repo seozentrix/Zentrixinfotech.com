@@ -3,6 +3,11 @@
 import React, { useState, useEffect } from 'react';
 import { Calendar, Clock, User, Share2, Facebook, Twitter, Linkedin, Link, CheckCircle, AlertCircle, TrendingUp, Instagram } from 'lucide-react';
 
+
+// export const metadata = {title: "Why Every Business Needs a Good Website in 2025 | Zentrix Infotech",description: "Discover why a professional website is essential for business success, trust, online visibility, mobile optimization and higher customer conversions."};
+
+
+
 const WebsiteBlogContent = () => {
     const [activeHeading, setActiveHeading] = useState('');
 

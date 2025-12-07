@@ -4,6 +4,9 @@ import React, { useState, useEffect } from 'react';
 import { Smartphone, Code, Palette, Shield, Zap, Globe, Users, BarChart3, Play, Star, TrendingUp, Search, Menu, Heart, ShoppingCart, Camera, MapPin, Calendar, Bell, Settings, Download, Package, Cpu, Layers } from 'lucide-react';
 import { motion } from "framer-motion";
 
+// export const metadata = {title: "Android App Development – Zentrix Infotech",description: "Expert Android app development services for startups and enterprises. Build powerful, scalable and user-friendly Android apps."};
+
+
 const AndroidDevelopment = () => {
   const [codeIndex, setCodeIndex] = useState(0);
 

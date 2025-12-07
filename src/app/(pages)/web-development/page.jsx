@@ -12,6 +12,9 @@ import {
     SiMongodb, SiTailwindcss, SiDocker, SiJavascript, SiTypescript, SiPostgresql, SiFirebase, SiNextdotjs, SiRedux
 } from 'react-icons/si';
 
+
+// export const metadata = {title: "Web Development Company – Zentrix Infotech",description: "Professional web development services by Zentrix Infotech. We build fast, responsive and SEO-friendly websites for business growth."};
+
 const techStack = [
     { name: "React.js", icon: <FaReact className="text-cyan-600" />, color: "text-cyan-600" },
     { name: "Next.js", icon: <SiNextdotjs className="text-black" />, color: "text-black" },

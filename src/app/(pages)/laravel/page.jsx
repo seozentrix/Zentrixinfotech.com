@@ -4,6 +4,10 @@ import React, { useState, useEffect } from 'react';
 import { Globe, Smartphone, Palette, Code, Database, Tablet, Headphones, Component, Layers, Zap } from 'lucide-react';
 import Banner from '@/components/Banner';
 
+
+// export const metadata = {title: "Laravel Development Company – Zentrix Infotech",description: "Custom Laravel development services for robust, secure and scalable web applications."};
+
+
 const Hero = () => {
     return (
         <>

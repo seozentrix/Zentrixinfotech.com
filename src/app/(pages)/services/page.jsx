@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import Banner from '@/components/Banner';
 
+// export const metadata = {title: "Zentrix Infotech – IT & Digital Marketing Services",description: "Explore Zentrix Infotech services including software development, web & mobile apps, cloud solutions, SEO, ads management, UI/UX and branding."};
+
 const ITServicesPage = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
 

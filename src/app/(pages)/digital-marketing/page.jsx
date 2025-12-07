@@ -6,6 +6,9 @@ import { TrendingUp, Users, Eye, MousePointer, Star, MapPin, Search, Target, Fac
 
 import { motion } from "framer-motion";
 
+// export const metadata = {title: "Digital Marketing Company – Zentrix Infotech",description: "Complete digital marketing services including SEO, social media, ads, branding and automation for rapid business growth."};
+
+
 const DigitalMarketingSaaS = () => {
     const [activeTab, setActiveTab] = useState('overview');
 

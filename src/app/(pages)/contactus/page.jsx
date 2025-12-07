@@ -2,6 +2,10 @@
 
 import { useState } from 'react';
 
+
+// export const metadata = {title: "Contact Zentrix Infotech – Start Your Digital Transformation",description: "Contact Zentrix Infotech for software development, digital marketing, cloud services and branding solutions. Let’s build your business digitally."};
+
+
 export default function ContactUs() {
     const [formData, setFormData] = useState({
         name: '',
@@ -77,13 +81,13 @@ export default function ContactUs() {
                                             <div className="space-y-2">
                                                 <p className="text-sm sm:text-base text-gray-600 wrap-break-word">
                                                     {/* <span className="font-semibold text-[#3B82F6]">India:</span><br /> */}
-                                                    1. East Thane, 
-                                                    Mumbai - 401107
+                                                    1. D 2102, Kakad Paradice, Miraroad - East, Thane (Mumbai)
+                                                    - 401107
                                                 </p>
                                                 <p className="text-sm sm:text-base text-gray-600 wrap-break-word">
-                                                   2. Gurugram,Haryana 
-                                                    - 122001
+                                                   2. A-20 Sunshine Apartment, Ghaziabad, UP                                                   - 201013
                                                 </p>
+                                                
                                             </div>
                                         </div>
                                     </div>

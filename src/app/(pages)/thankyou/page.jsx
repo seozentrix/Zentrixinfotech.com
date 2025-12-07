@@ -1,6 +1,12 @@
 import React from 'react';
 import { CheckCircle, Mail, Phone, MapPin, Home } from 'lucide-react';
 
+
+// export const metadata = {title: "Thank You – Zentrix Infotech",description: "Thank you for contacting Zentrix Infotech. Our team will get back to you shortly."};
+
+
+
+
 export default function ThankYouPage() {
     return (
         <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
@@ -67,11 +73,11 @@ export default function ThankYouPage() {
                             <div className="space-y-4">
 
                                 <div>
-                                    <p className="text-gray-700">1. East Thane,
+                                    <p className="text-gray-700">1. D 2102, Kakad Paradice, Miraroad - East, Thane (Mumbai) 
                                         - 401107
                                     </p>
-                                    <p className="text-gray-700">2. Gurugram,Haryana 
-                                        - 122001
+                                    <p className="text-gray-700">2. A-20 Sunshine Apartment, Ghaziabad, UP 
+                                        - 201013
                                     </p>
                                 </div>
                             </div>

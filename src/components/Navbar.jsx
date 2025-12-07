@@ -196,7 +196,7 @@ export default function Navbar() {
                                 )}
                             </div>
 
-                            <NavLink href="/portfolios">Portfolio</NavLink>
+                            <NavLink href="/portfolio">Portfolio</NavLink>
                             <NavLink href="/contactus">Contact Us</NavLink>
                             <NavLink href="/blogs">Blogs</NavLink>
                         </div>
@@ -364,9 +364,9 @@ export default function Navbar() {
                             </div>
 
                             {/* Other Mobile Menu Items */}
-                            <Link href="/portfolios" onClick={closeMobileMenu} className="block px-3 py-4 text-base font-semibold rounded-md transition-colors duration-200"
+                            <Link href="/portfolio" onClick={closeMobileMenu} className="block px-3 py-4 text-base font-semibold rounded-md transition-colors duration-200"
                                 style={{ color: '#475569' }} {...mobileHoverStyles}>
-                                Portfolios
+                                portfolio
                             </Link>
                             <Link href="/contactus" onClick={closeMobileMenu} className="block px-3 py-4 text-base font-semibold rounded-md transition-colors duration-200"
                                 style={{ color: '#475569' }} {...mobileHoverStyles}>

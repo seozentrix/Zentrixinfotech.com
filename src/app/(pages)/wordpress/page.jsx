@@ -4,6 +4,10 @@ import React, { useState, useEffect } from 'react';
 import { Globe, Palette, Code, Database, Headphones, FileText, Users, Settings, Search } from 'lucide-react';
 import Banner from '@/components/Banner';
 
+// export const metadata = {title: "WordPress Development Company – Zentrix Infotech",description: "Zentrix Infotech offers professional WordPress development services including custom themes, plugins, business websites and SEO-optimized WordPress solutions."};
+
+
+
 const Hero = () => {
     return (
         <>

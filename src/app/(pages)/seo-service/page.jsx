@@ -12,6 +12,9 @@ import {
   BarChart3
 } from 'lucide-react';
 
+// export const metadata = {title: "SEO Services Company – Zentrix Infotech",description: "Result-driven SEO services to rank higher on Google, drive traffic and generate quality leads."};
+
+
 const SEOServicePage = () => {
   const [visibleCards, setVisibleCards] = useState(new Set());
   const observerRef = useRef(null);
