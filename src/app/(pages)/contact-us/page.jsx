@@ -138,12 +138,12 @@ export default function ContactUs() {
                                 </div>
 
                                 <form
-                                    action="https://formsubmit.co/info@zentrixinfotech.com"
+                                    action="https://formsubmit.co/zentrixit@gmail.com"
                                     method="POST"
                                     className="space-y-4 sm:space-y-6"
                                 >
                                     {/* Hidden fields for FormSubmit configuration */}
-                                    <input type="hidden" name="_next" value="https://yourdomain.com/thankyou" />
+                                    <input type="hidden" name="_next" value="https://zentrixinfotech.com/thankyou" />
                                     <input type="hidden" name="_subject" value="New Contact Form Submission" />
                                     <input type="hidden" name="_captcha" value="false" />
                                     <input type="hidden" name="_template" value="table" />
