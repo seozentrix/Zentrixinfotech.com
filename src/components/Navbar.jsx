@@ -197,7 +197,7 @@ export default function Navbar() {
                             </div>
 
                             <NavLink href="/portfolio">Portfolio</NavLink>
-                            <NavLink href="/contactus">Contact Us</NavLink>
+                            <NavLink href="/contact-us">Contact Us</NavLink>
                             <NavLink href="/blogs">Blogs</NavLink>
                         </div>
                     </div>

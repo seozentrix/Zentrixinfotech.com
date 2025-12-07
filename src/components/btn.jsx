@@ -7,7 +7,7 @@ const btn = () => {
     const router = useRouter();
 
     const handleNavigate = () => {
-        router.push("/contactus");
+        router.push("/contact-us");
         window.scrollTo(0, 0);
     }
 

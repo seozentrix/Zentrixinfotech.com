@@ -78,7 +78,7 @@ export default function FAQSection() {
     const router = useRouter();
 
     const handleNavigate = () => {
-        router.push("/contactus");
+        router.push("/contact-us");
     };
 
     const leftColumnItems = faqData.filter(item => item.column === 'left');

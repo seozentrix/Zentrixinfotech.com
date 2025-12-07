@@ -9,7 +9,7 @@ const ContentPanel = ({ number, label, description, stats = [] }) => {
     const router = useRouter();
 
     const handleNavigate = () =>{
-        router.push('/contactus')
+        router.push('/contact-us')
     }
 
 

@@ -7,7 +7,7 @@ const Banner = () => {
     const router = useRouter();
 
     const handleNavigate = () => {
-        router.push("/contactus");
+        router.push("/contact-us");
     }
 
     return (

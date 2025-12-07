@@ -511,7 +511,7 @@ const Hero = () => {
                 className={`px-8 py-4 bg-linear-to-r cursor-pointer ${currentService.color} text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl transition-all w-full sm:w-auto flex items-center justify-center gap-2`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => window.location.href = '/contactus'}
+                onClick={() => window.location.href = '/contact-us'}
               >
                 <Rocket className="w-5 h-5" />
                 <span>Get Started</span>
