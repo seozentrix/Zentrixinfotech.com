@@ -10,7 +10,7 @@ const portfolio = () => {
     const router = useRouter();
 
     const handleNavigate = () => {
-        router.push("/portfolio");
+        router.push("/portfolio") ;
     }
 
     const [visibleItems, setVisibleItems] = useState(new Set());
