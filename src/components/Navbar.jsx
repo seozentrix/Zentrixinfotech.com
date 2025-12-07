@@ -311,7 +311,7 @@ export default function Navbar() {
 
                                         {/* Web Development */}
                                         <div>
-                                            <Link href="/web_development" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
+                                            <Link href="/web-development" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
                                                 style={{ color: '#475569' }}
                                                 onMouseEnter={(e) => { e.currentTarget.style.color = '#0ea5e9'; e.currentTarget.style.backgroundColor = 'white'; }}
                                                 onMouseLeave={(e) => { e.currentTarget.style.color = '#475569'; e.currentTarget.style.backgroundColor = 'transparent'; }}>
@@ -368,7 +368,7 @@ export default function Navbar() {
                                 style={{ color: '#475569' }} {...mobileHoverStyles}>
                                 portfolio
                             </Link>
-                            <Link href="/contactus" onClick={closeMobileMenu} className="block px-3 py-4 text-base font-semibold rounded-md transition-colors duration-200"
+                            <Link href="/contact-us" onClick={closeMobileMenu} className="block px-3 py-4 text-base font-semibold rounded-md transition-colors duration-200"
                                 style={{ color: '#475569' }} {...mobileHoverStyles}>
                                 Contact Us
                             </Link>
