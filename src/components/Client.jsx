@@ -4,7 +4,7 @@ import React from 'react';
 
 const companies = [
 
-  { id: 1, name: "Vasterior Pvt. Ltd.", logo: "https://www.vasterior.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fda12wzxoq%2Fimage%2Fupload%2Fv1764841085%2Fvasteriorlogo_bmzk0r.png&w=384&q=75" },
+  { id: 1, name: "Vasterior", logo: "https://www.vasterior.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fda12wzxoq%2Fimage%2Fupload%2Fv1764841085%2Fvasteriorlogo_bmzk0r.png&w=384&q=75" },
   { id: 2, name: "The Buyzaar Mart", logo: "https://www.thebuyzaarmart.com/images/buyzaar-logo.png" },
   { id: 3, name: "Kdedu", logo: "/kdedu-logo.png" },
   { id: 4, name: "Herbsfox", logo: "https://herbsfox.com/wp-content/uploads/2024/01/logo1.png" },
