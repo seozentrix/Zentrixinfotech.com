@@ -8,14 +8,14 @@ const AboutCompany = () => {
     const router = useRouter();
 
     const handleNavigate = () => {
-        router.push('/aboutus')
+        router.push('/about-us')
 
     }
     return (
         <>
-            <section className="bg-white py-16 px-10">
+            <section className="bg-white py-1 px-5">
                 <div className="max-w-7xl mx-auto">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 
 
                         {/* Right Side - Content */}
@@ -38,13 +38,14 @@ const AboutCompany = () => {
                             {/* Description Text */}
                             <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
                                 <p className="relative">
-                                    Founded to bridge technology and real-world business challenges, we are a team of expert technologists driving digital transformation. We specialize in creating solutions that solve problems, enhance user experiences, and deliver measurable results.
-                                    Our commitment to trust, transparency, and innovation ensures every project makes an impact. From startups to established enterprises, we empower businesses to thrive in the digital era.
+                                    Founded with a vision to bridge the gap between technology and real-world business challenges, Zentrix Infotech is a team of passionate technologists driving meaningful digital transformation. We craft smart, user-focused solutions that solve real problems, elevate user experiences, and deliver measurable business growth.
+                                    Built on trust, transparency, and innovation, every project we undertake is driven by impact and long-term value. From ambitious startups to established enterprises, we empower businesses to grow, scale, and succeed in the digital era.
+                                    
                                 </p>
 
                                 <div className="relative p-4 bg-linear-to-r from-[#f0ca4d]/10 to-[#f56a6a]/10 rounded-lg border-l-4 border-[#f0ca4d]">
                                     <p className="font-semibold text-gray-800 italic">
-                                        We help enterprises upgrade and optimize their technology framework, resolving system challenges efficiently to drive seamless operations and business growth.
+                                        We optimize enterprise technology systems to eliminate challenges, enhance performance, and accelerate business growth.
                                     </p>
                                 </div>
                             </div>
@@ -105,13 +106,12 @@ const AboutCompany = () => {
 
                             <div className="relative">
                                 <img
-                                    src="https://res.cloudinary.com/dewxpvl5s/image/upload/v1761369494/about_company_image_tvfvto.png"
+                                    src="https://plus.unsplash.com/premium_vector-1682306737276-670b799c9d1c?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                     alt="Team collaboration and technology innovation"
-                                    className="w-full h-auto rounded-lg shadow-xl object-cover border-2 border-white/50 "
+                                    className="w-full h-[460px] rounded-lg shadow-xl object-cover border-2 border-white/50 "
                                 />
 
-                                {/* Overlay linear */}
-                                <div className="absolute inset-0 bg-linear-to-tr from-[#3c4cad]/10 via-transparent to-[#f04393]/10 rounded-lg"></div>
+                               
                             </div>
                         </div>
                     </div>

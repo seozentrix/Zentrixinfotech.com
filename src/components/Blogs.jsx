@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Calendar, ArrowRight, Clock, Tag, TrendingUp } from 'lucide-react';
 
-// Sample blog data - replace with your actual data
+
 const blogPosts = [
   {
     id: 1,
@@ -74,14 +74,13 @@ const Blog = () => {
             >
               {/* Blog Image */}
               <Link href={post.link} className="block relative overflow-hidden">
-                <div className="aspect-16/10 relative">
+              <div className="aspect-16/10 relative">
                   <img
                     src={post.image} 
                     alt={post.title}
                     fill
                     className="object-fit group-hover:scale-110 transition-transform duration-700 h-full w-full"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  />
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
                   <div className="absolute inset-0 bg-linear-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   
                   {/* Category Badge */}

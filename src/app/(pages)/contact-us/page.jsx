@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 
-// export const metadata = {title: "Contact Zentrix Infotech – Start Your Digital Transformation",description: "Contact Zentrix Infotech for software development, digital marketing, cloud services and branding solutions. Let’s build your business digitally."};
+
 
 
 export default function ContactUs() {
