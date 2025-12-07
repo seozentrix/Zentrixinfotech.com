@@ -1,33 +1,67 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import AboutCompany from "@/components/AboutCompany";
 import Hero from "@/components/Hero";
-
 import Servicess from "@/components/Services";
-import portfolio from "@/components/Portfolio";
-
+import Portfolio from "@/components/Portfolio";
 import Client from "@/components/Client";
 import LovedByClients from "@/components/LovedByClients";
 import Blog from "@/components/Blogs";
 
+// ✅ ✅ ✅ SEO METADATA (SERVER COMPONENT SAFE)
 export const metadata = {
-  title: "Zentrix Infotech – Transforming Businesses With Tech & Creativity",
+  title: "Transforming Businesses With Tech & Creativity",
   description:
-    "At Zentrix Infotech, we deliver scalable software, cloud solutions, web & mobile apps, and powerful digital marketing (SEO, Ads, Branding) to help businesses grow online.",
+    "We deliver scalable software, cloud solutions, web & mobile apps, and powerful digital marketing including SEO, Ads and Branding to help businesses grow online.",
+
+  alternates: {
+    canonical: "https://www.zentrixinfotech.com/",
+  },
+
+  openGraph: {
+    title: "Digital Marketing, Web & Software Development Company",
+    description:
+      "Professional digital marketing, web development, mobile apps, software solutions, UI/UX design and cloud services for startups and enterprises.",
+    url: "https://www.zentrixinfotech.com/",
+    siteName: "Zentrix Infotech",
+    images: [
+      {
+        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Zentrix Infotech – Digital & IT Solutions Company",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Digital Marketing, Web & Software Development Company",
+    description:
+      "We offer digital marketing, web development, mobile apps, software development, UI/UX design and cloud solutions.",
+    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+  },
+
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
-const page = () => {
+// ✅ ✅ ✅ HOMEPAGE COMPONENT
+const Page = () => {
   return (
     <div className="bg-[#f8fafc]">
       <Hero />
       <AboutCompany />
       <Client />
       <Servicess />
-      <portfolio />
+      <Portfolio />
       <Blog />
       <LovedByClients />
     </div>
   );
 };
 
-export default page;
+export default Page;
