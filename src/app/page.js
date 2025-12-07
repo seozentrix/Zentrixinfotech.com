@@ -3,7 +3,7 @@ import React from "react";
 import AboutCompany from "@/components/AboutCompany";
 import Hero from "@/components/Hero";
 import Servicess from "@/components/Services";
-import Portfolios from "@/components/Portfolios";
+import Portfolio from "@/components/Portfolio";
 import Client from "@/components/Client";
 import LovedByClients from "@/components/LovedByClients";
 import Blog from "@/components/Blogs";
@@ -102,7 +102,7 @@ const Page = () => {
       <AboutCompany />
       <Client />
       <Servicess />
-      <Portfolios />
+      <Portfolio />
       <Blog />
       <LovedByClients />
     </div>
