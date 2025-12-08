@@ -270,20 +270,20 @@ const BlogSection = () => {
 
                                     {/* Read More Button */}
                                     <button
-                                        className="w-full py-2 sm:py-2.5 px-4 cursor-pointer text-white rounded-lg text-sm sm:text-base font-medium transition-all duration-300 transform group-hover:scale-105"
-                                        style={{
-                                            background: 'linear-linear(135deg, #4C4CAD, #EA4393)'
-                                        }}
-                                        onClick={() => handleNavigate(post.link)}
-                                        onMouseEnter={(e) => {
-                                            e.target.style.background = 'linear-linear(135deg, #36086B, #E94A4C)';
-                                        }}
-                                        onMouseLeave={(e) => {
-                                            e.target.style.background = 'linear-linear(135deg, #4C4CAD, #EA4393)';
-                                        }}
-                                    >
-                                        Read Article
-                                    </button>
+    className="w-full py-2 sm:py-2.5 px-4 cursor-pointer text-white rounded-lg text-sm sm:text-base font-medium transition-all duration-300 transform group-hover:scale-105"
+    style={{
+        background: 'linear-gradient(135deg, #4C4CAD, #EA4393)'
+    }}
+    onClick={() => handleNavigate(post.link)}
+    onMouseEnter={(e) => {
+        e.target.style.background = 'linear-gradient(135deg, #36086B, #E94A4C)';
+    }}
+    onMouseLeave={(e) => {
+        e.target.style.background = 'linear-gradient(135deg, #4C4CAD, #EA4393)';
+    }}
+>
+    Read Article
+</button>
                                 </div>
                             </article>
                         ))}

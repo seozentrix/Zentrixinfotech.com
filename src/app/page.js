@@ -8,13 +8,13 @@ import Client from "@/components/Client";
 import LovedByClients from "@/components/LovedByClients";
 import Blog from "@/components/Blogs";
 
-// ✅ ✅ ✅ CORRECT SEO META TAGS FOR ZENTRIX INFOTECH LLP
+
 export const metadata = {
   title:
-    "Zentrix Infotech LLP – Digital Marketing, Web & Software Development Company",
+    "Zentrix Infotech – Website Development, Software Development and Digital Marketing Company",
 
   description:
-    "Zentrix Infotech LLP is a professional digital marketing, web development, mobile app, software development, UI/UX design, and cloud solutions company delivering affordable IT services for businesses.",
+    "Zentrix Infotech is a professional digital marketing, web development, mobile app, software development, UI/UX design, and cloud solutions company delivering affordable IT services for businesses.",
 
   keywords: [
     "digital marketing company",
@@ -54,20 +54,20 @@ export const metadata = {
   // ✅ ✅ ✅ OPEN GRAPH (FOR SOCIAL SHARING)
   openGraph: {
     title:
-      "Zentrix Infotech LLP – Digital Marketing, Web & Software Development Company",
+      "Zentrix Infotech – Website Development, Software Development and Digital Marketing Company",
 
     description:
-      "Zentrix Infotech LLP delivers reliable digital marketing, web development, mobile apps, software development, UI/UX design, and cloud IT solutions for startups and enterprises.",
+      "Zentrix Infotech delivers reliable digital marketing, web development, mobile apps, software development, UI/UX design, and cloud IT solutions for startups and enterprises.",
 
     url: "https://www.zentrixinfotech.com/",
-    siteName: "Zentrix Infotech LLP",
+    siteName: "Zentrix Infotech",
 
     images: [
       {
         url: "https://zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
-        alt: "Zentrix Infotech LLP – Digital & IT Solutions Company",
+        alt: "Zentrix Infotech – Digital & IT Solutions Company",
       },
     ],
 
@@ -80,10 +80,10 @@ export const metadata = {
     card: "summary_large_image",
 
     title:
-      "Zentrix Infotech LLP – Digital Marketing, Web & Software Development Company",
+      "Zentrix Infotech – Website Development, Software Development and Digital Marketing Company",
 
     description:
-      "Zentrix Infotech LLP is a professional IT solutions company offering digital marketing, web development, mobile apps, software development, UI/UX design, and cloud solutions.",
+      "Zentrix Infotech is a professional IT solutions company offering digital marketing, web development, mobile apps, software development, UI/UX design, and cloud solutions.",
 
     images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
   },
