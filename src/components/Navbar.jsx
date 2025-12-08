@@ -185,6 +185,7 @@ export default function Navbar() {
                                 {activeDropdown === 'services' && (
                                     <div className="absolute top-full left-0 w-56 bg-white rounded-md shadow-lg border border-gray-200 z-50">
                                         <div className="py-2">
+                                            <DropdownItem href="/services">ALL SERVICES</DropdownItem>
                                             <NestedDropdown id="digital" href="/digital-marketing" label="DIGITAL MARKETING" links={digitalMarketingLinks} />
                                             <NestedDropdown id="mobile" href="/mobile-development" label="MOBILE DEVELOPMENT" links={mobileDevLinks} />
                                             <NestedDropdown id="web" href="/web-development" label="WEB DEVELOPMENT" links={webDevLinks} />
@@ -251,6 +252,14 @@ export default function Navbar() {
                                 </button>
                                 {activeDropdown === 'services' && (
                                     <div className="ml-4 mt-2 space-y-2 rounded-md p-2" style={{ backgroundColor: '#f8fafc' }}>
+                                        {/* All Services Link */}
+                                        <Link href="/services" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
+                                            style={{ color: '#475569' }}
+                                            onMouseEnter={(e) => { e.currentTarget.style.color = '#0ea5e9'; e.currentTarget.style.backgroundColor = 'white'; }}
+                                            onMouseLeave={(e) => { e.currentTarget.style.color = '#475569'; e.currentTarget.style.backgroundColor = 'transparent'; }}>
+                                            ALL SERVICES
+                                        </Link>
+
                                         {/* Digital Marketing */}
                                         <div>
                                             <Link href="/digital-marketing" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
@@ -366,7 +375,7 @@ export default function Navbar() {
                             {/* Other Mobile Menu Items */}
                             <Link href="/portfolio" onClick={closeMobileMenu} className="block px-3 py-4 text-base font-semibold rounded-md transition-colors duration-200"
                                 style={{ color: '#475569' }} {...mobileHoverStyles}>
-                                portfolio
+                                Portfolio
                             </Link>
                             <Link href="/contact-us" onClick={closeMobileMenu} className="block px-3 py-4 text-base font-semibold rounded-md transition-colors duration-200"
                                 style={{ color: '#475569' }} {...mobileHoverStyles}>
