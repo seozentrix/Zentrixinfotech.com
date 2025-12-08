@@ -7,6 +7,8 @@ import Portfolio from "@/components/Portfolio";
 import Client from "@/components/Client";
 import LovedByClients from "@/components/LovedByClients";
 import Blog from "@/components/Blogs";
+import VideoContent from "@/components/VideoContent";
+import Gif from "@/components/Gif";
 
 
 export const metadata = {
@@ -99,7 +101,7 @@ const Page = () => {
   return (
     <div className="bg-[#f8fafc]">
       <Hero />
-      <AboutCompany />
+      <Gif />
       <Client />
       <Servicess />
       <Portfolio />
