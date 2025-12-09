@@ -41,7 +41,7 @@ const ContactWidget = () => {
       )}
 
       {/* Floating Contact Buttons */}
-      <div className="fixed bottom-6 right-6 z-40 flex flex-col gap-3">
+      <div className="fixed bottom-6 right-6 z-40 flex flex-col gap-6 ">
         {/* WhatsApp Button */}
         <a
           href="https://wa.me/916397036898"
@@ -70,27 +70,7 @@ const ContactWidget = () => {
           {/* Glow Effect */}
           <div className="absolute inset-0 bg-green-400 rounded-full opacity-0 group-hover:opacity-30 blur-xl transition-opacity duration-300"></div>
         </a>
-
-        
-
-        {/* Email Button */}
-        <a
-          href="mailto:zentrixit@gmail.com"
-          className="relative group"
-          title="Email Us"
-        >
-          <div className="bg-gradient-to-br from-red-400 to-red-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-2xl group-hover:rotate-12">
-            <Mail size={28} className="drop-shadow-md animate-wiggle" />
-          </div>
-          
-          {/* Glow Effect */}
-          <div className="absolute inset-0 bg-red-400 rounded-full opacity-0 group-hover:opacity-30 blur-xl transition-opacity duration-300"></div>
-        </a>
-
-
-
-
-        {/* Phone Button */}
+         {/* Phone Button */}
         <a
           href="tel:+917248800839"
           className="relative group"
