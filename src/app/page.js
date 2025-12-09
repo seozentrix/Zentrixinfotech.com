@@ -2,7 +2,7 @@ import React from "react";
 
 import AboutCompany from "@/components/AboutCompany";
 import Hero from "@/components/Hero";
-import Servicess from "@/components/Services";
+import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
 import Client from "@/components/Client";
 import LovedByClients from "@/components/LovedByClients";
@@ -101,9 +101,11 @@ const Page = () => {
   return (
     <div className="bg-[#f8fafc]">
       <Hero />
-      <Gif />
+      <AboutCompany />
+      
       <Client />
-      <Servicess />
+      <Services />
+      <Gif />
       <Portfolio />
       <Blog />
       <LovedByClients />
