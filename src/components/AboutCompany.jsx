@@ -22,7 +22,7 @@ const AboutCompany = () => {
                         <div className="space-y-6">
                             {/* Section Label */}
                             <div className="text-teal-500 font-medium text-lg uppercase tracking-wide bg-linear-to-r from-emerald-400/10 to-teal-400/10 px-4 py-2 rounded-full inline-block border border-emerald-400/30 shadow-sm">
-                                ABOUT COMPANY
+                                ABOUT Zentrix
                             </div>
 
                             {/* Main Heading */}
