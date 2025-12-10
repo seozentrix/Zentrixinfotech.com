@@ -31,7 +31,7 @@ const ContactWidget = () => {
                 href="mailto:zentrixit@gmail.com" 
                 className="text-blue-600 hover:underline"
               >
-                zentrixit@gmail.com
+                info@zentrixinfotech.com
               </a>
             </p>
 
