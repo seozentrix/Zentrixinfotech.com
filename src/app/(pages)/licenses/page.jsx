@@ -3,22 +3,14 @@
 import React from 'react';
 import { Shield, CheckCircle, FileText, Building, Calendar, Award } from 'lucide-react';
 
-
-// export const metadata = {title: "Licenses & Certifications – Zentrix Infotech",description: "View licenses, registrations and official certifications of Zentrix Infotech."};
-
-
-
-
 const LicensesPage = () => {
     const licenses = [
         {
             id: 1,
             type: "GST REGISTRATION",
-            number: "09AA*F***30*1Z*", 
-            status: "Active",
+            number: "09AA*F***30*1Z*",
             issueDate: "02-10-2025",
             authority: "Goods and Services Tax Network",
-            description: "Authorized to collect and remit Goods and Services Tax in India",
             icon: Building,
             color: "from-emerald-500 to-teal-600"
         },
@@ -26,40 +18,37 @@ const LicensesPage = () => {
             id: 2,
             type: "LLP PIN",
             number: "ACP-5349",
-            status: "Active",
-            issueDate: "30-06-2025",
+            issueDate: "06-30-2025",
             authority: "LLP Identification Number",
             icon: Building,
             color: "from-emerald-500 to-teal-600"
         },
         {
-        id: 3,
+            id: 3,
             type: "PAN",
-            number: "AA*F***30*", 
-            status: "Active",
-            issueDate: "30-06-2025",
+            number: "AA*F***30*",
+            issueDate: "06-30-2025",
             authority: "e - Permanent Account Number",
             icon: Building,
             color: "from-emerald-500 to-teal-600"
         },
         {
-        id: 4,
+            id: 4,
             type: "UDYAM CERTIFICATION",
-            number: "UDYAM-UP-59-008**** ", 
-            status: "Active",
+            number: "UDYAM-UP-59-008****",
             issueDate: "12-10-2025",
-            authority: "UDYAM REGISTRATION CERTIFICATION",
+            authority: "Udyam Registration Certification",
             icon: Building,
             color: "from-emerald-500 to-teal-600"
         },
-
     ];
 
     const StatusBadge = ({ status }) => (
-        <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium ${status === 'Soon will update'
+        <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium ${
+            status === 'Soon will update'
                 ? 'bg-emerald-100 text-emerald-700 border border-emerald-200'
                 : 'bg-slate-100 text-slate-600 border border-slate-200'
-            }`}>
+        }`}>
             <CheckCircle className="w-3 h-3 mr-1" />
             {status}
         </div>
@@ -68,8 +57,7 @@ const LicensesPage = () => {
     return (
         <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 text-slate-900 lg:py-24 py-10">
 
-
-            {/* Header Section */}
+            {/* Header */}
             <div className="relative overflow-hidden">
                 <div className="absolute inset-0 bg-linear-to-r from-blue-100/50 to-purple-100/50" />
                 <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -89,10 +77,12 @@ const LicensesPage = () => {
 
             {/* Main Content */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-                {/* Current Licenses Grid */}
-                <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-1 mb-16">
+
+                {/* GRID UPDATED HERE: mobile = 1, desktop = 4 */}
+                <div className="grid gap-8 grid-cols-1 lg:grid-cols-3 mb-16">
                     {licenses.map((license) => {
                         const IconComponent = license.icon;
+
                         return (
                             <div
                                 key={license.id}
@@ -108,50 +98,37 @@ const LicensesPage = () => {
                                             <p className="text-slate-600 text-sm">{license.authority}</p>
                                         </div>
                                     </div>
-                                    <StatusBadge status={license.status} />
+
+                                    
                                 </div>
 
                                 <div className="space-y-4">
-                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                        <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
-                                            <div className="flex items-center mb-2">
-                                                <FileText className="w-4 h-4 text-blue-600 mr-2" />
-                                                <span className="text-sm font-medium text-slate-700">License Number</span>
-                                            </div>
-                                            <p className="text-slate-900 font-mono">{license.number}</p>
+                                    <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
+                                        <div className="flex items-center mb-2">
+                                            <FileText className="w-4 h-4 text-blue-600 mr-2" />
+                                            <span className="text-sm font-medium text-slate-700">License Number</span>
                                         </div>
-
-                                        <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
-                                            <div className="flex items-center mb-2">
-                                                <Calendar className="w-4 h-4 text-green-600 mr-2" />
-                                                <span className="text-sm font-medium text-slate-700">Issue Date</span>
-                                            </div>
-                                            <p className="text-slate-900">{new Date(license.issueDate).toLocaleDateString()}</p>
-                                        </div>
+                                        <p className="text-slate-900 font-mono">{license.number}</p>
                                     </div>
 
                                     <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
                                         <div className="flex items-center mb-2">
-                                            <Award className="w-4 h-4 text-purple-600 mr-2" />
-                                            <span className="text-sm font-medium text-slate-700">Validity</span>
+                                            <Calendar className="w-4 h-4 text-green-600 mr-2" />
+                                            <span className="text-sm font-medium text-slate-700">Issue Date</span>
                                         </div>
-                                        <p className="text-slate-900">{license.expiryDate}</p>
+                                        <p className="text-slate-900">
+                                            {new Date(license.issueDate).toLocaleDateString()}
+                                        </p>
                                     </div>
-
-                                    <div className="pt-2">
-                                        <p className="text-slate-600 text-sm leading-relaxed">{license.description}</p>
-                                    </div>
+               
                                 </div>
 
-                                {/* Hover effect linear border */}
                                 <div className="absolute inset-0 rounded-2xl bg-linear-to-r from-blue-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
                             </div>
                         );
                     })}
                 </div>
             </div>
-
-
         </div>
     );
 };
