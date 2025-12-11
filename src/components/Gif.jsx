@@ -5,13 +5,13 @@ export default function VideoBanner() {
     <section className="relative w-full  text-black py-11 px-4 overflow-hidden">
 
       {/* ✅ Heading */}
-      <h1 className="text-center font-serif text-3xl md:text-6xl font-bold tracking-wide">
+      <h2 className="text-center font-serif text-3xl md:text-6xl font-medium tracking-wide">
         ON YOUR MARKS. GET SET.{" "}
         <span className="text-emerald-400">GROW.</span>
-      </h1>
+      </h2>
 
       {/* ✅ Subheading */}
-      <p className="text-center mt-6 max-w-5xl mx-auto text-xs md:text-sm text-black tracking-widest uppercase leading-relaxed">
+      <p className="text-center text-gray-600 text-lg mt-6 max-w-5xl mx-auto">
         We are an ROI driven boutique performance marketing agency in Dubai
         working with brands and organisations to help grow revenue through
         cutting edge technology and marketing.
