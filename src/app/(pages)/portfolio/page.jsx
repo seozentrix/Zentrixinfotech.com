@@ -3,7 +3,7 @@ import Content from "./Content";
 
 
 export const metadata = {
-  title: "Our Project Portfolio | Web, Mobile & Software Solutions – Zentrix Infotech",
+  title: "Portfolio | Web, Mobile & Software Solutions – Zentrix Infotech",
 
   description:
     "Explore the portfolio of Zentrix Infotech featuring our best digital marketing, web development, mobile app, software, UI/UX, and cloud solution projects delivered for clients across industries.",
@@ -30,7 +30,7 @@ export const metadata = {
 
   // ✅ ✅ ✅ OPEN GRAPH (SAME DESCRIPTION)
   openGraph: {
-    title: "Our Project Portfolio | Web, Mobile & Software Solutions – Zentrix Infotech",
+    title: "Portfolio | Web, Mobile & Software Solutions – Zentrix Infotech",
     description:
       "Explore the portfolio of Zentrix Infotech featuring our best digital marketing, web development, mobile app, software, UI/UX, and cloud solution projects delivered for clients across industries.",
     url: "https://www.zentrixinfotech.com/portfolio",
@@ -51,7 +51,7 @@ export const metadata = {
   // ✅ ✅ ✅ TWITTER META (SAME DESCRIPTION)
   twitter: {
     card: "summary_large_image",
-    title: "Our Project Portfolio | Web, Mobile & Software Solutions – Zentrix Infotech",
+    title: "Portfolio | Web, Mobile & Software Solutions – Zentrix Infotech",
     description:
       "Explore the portfolio of Zentrix Infotech featuring our best digital marketing, web development, mobile app, software, UI/UX, and cloud solution projects delivered for clients across industries.",
     images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
