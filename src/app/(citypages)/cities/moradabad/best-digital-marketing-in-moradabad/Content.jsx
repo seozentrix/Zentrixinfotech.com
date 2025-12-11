@@ -22,7 +22,7 @@ const Content = () => {
     <div className="min-h-screen bg-white pt-0">
       <div className="flex flex-col lg:flex-row">
         {/* Content Section */}
-        <div className="flex-1 px-4 sm:px-8 md:px-16 py-12 order-1 lg:order-1">
+        <div className="flex-1 px-4 sm:px-8 md:px-16 py-0 order-1 lg:order-1">
 
           <div className="space-y-8 text-gray-700 leading-relaxed max-w-4xl">
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">

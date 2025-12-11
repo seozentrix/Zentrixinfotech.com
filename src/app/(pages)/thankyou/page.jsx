@@ -9,7 +9,7 @@ import { CheckCircle, Mail, Phone, MapPin, Home } from 'lucide-react';
 
 export default function ThankYouPage() {
     return (
-        <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 mt-25">
             <div className="max-w-6xl mx-auto">
                 {/* Header */}
                 <div className="text-center mb-12">
@@ -25,40 +25,8 @@ export default function ThankYouPage() {
                 </div>
 
                 {/* Main Content Grid */}
-                <div className="grid md:grid-cols-2 gap-8 mb-12">
-                    {/* What Happens Next */}
-                    <div className="bg-white rounded-2xl shadow-lg p-8">
-                        <h2 className="text-2xl font-bold text-gray-900 mb-6">What Happens Next?</h2>
-                        <div className="space-y-4">
-                            <div className="flex items-start">
-                                <div className="bg-blue-100 rounded-full p-2 mr-4 mt-1">
-                                    <span className="text-blue-600 font-bold">1</span>
-                                </div>
-                                <div>
-                                    <h3 className="font-semibold text-gray-900 mb-1">Message Received</h3>
-                                    <p className="text-gray-600">We've received your inquiry and it's been assigned to our team.</p>
-                                </div>
-                            </div>
-                            <div className="flex items-start">
-                                <div className="bg-blue-100 rounded-full p-2 mr-4 mt-1">
-                                    <span className="text-blue-600 font-bold">2</span>
-                                </div>
-                                <div>
-                                    <h3 className="font-semibold text-gray-900 mb-1">Review & Analysis</h3>
-                                    <p className="text-gray-600">Our experts will carefully review your message and prepare a response.</p>
-                                </div>
-                            </div>
-                            <div className="flex items-start">
-                                <div className="bg-blue-100 rounded-full p-2 mr-4 mt-1">
-                                    <span className="text-blue-600 font-bold">3</span>
-                                </div>
-                                <div>
-                                    <h3 className="font-semibold text-gray-900 mb-1">We'll Contact You</h3>
-                                    <p className="text-gray-600">Expect to hear from us within 24 hours on business days.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className="grid md:grid-rows-1 gap-8 mb-12">
+                    
 
                     {/* Contact Information */}
                     <div className="space-y-6">
@@ -93,8 +61,8 @@ export default function ThankYouPage() {
                                     </div>
                                     <div>
                                         <p className="text-sm text-gray-600">Email Us</p>
-                                        <a href="mailto:zentrixit@gmail.com" className="text-gray-900 font-medium hover:text-blue-600">
-                                            zentrixinfotech@gmail.com
+                                        <a href="mailto:info@zentrixinfotech.com" className="text-gray-900 font-medium hover:text-blue-600">
+                                            info@zentrixinfotech.com
                                         </a>
                                     </div>
                                 </div>
@@ -104,8 +72,8 @@ export default function ThankYouPage() {
                                     </div>
                                     <div>
                                         <p className="text-sm text-gray-600">Call Us</p>
-                                        <a href="tel:+61341000901" className="text-gray-900 font-medium hover:text-blue-600">
-                                            +91 72488 00839
+                                        <a  className="text-gray-900 font-medium hover:text-blue-600">
+                                            +91 72488 00839, +91 6397036898
                                         </a>
                                         <p className="text-xs text-gray-500">Mon-Sat, 10AM-6PM AWST</p>
                                     </div>
