@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Topbar from "@/components/Topbar";
 import Footer from "@/components/Footer";
 import ContactsButton from "@/components/ContactsButton";
+import PopupForm from "@/components/PopupForm";
 
 export default function RootLayout({ children }) {
   return (
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
         <ContactsButton />
+        <PopupForm />
       </body>
     </html>
   );
