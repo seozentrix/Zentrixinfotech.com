@@ -16,6 +16,48 @@ export const metadata = {
   alternates: {
     canonical: "https://www.zentrixinfotech.com/cities",
   },
+
+  // ✅ ✅ ✅ OPEN GRAPH (FOR SOCIAL SHARING)
+  openGraph: {
+    title:
+      "Cities We Serve | Zentrix Infotech",
+
+    description:
+      "Explore the list of cities where Zentrix Infotech provides affordable digital marketing, web development, software development, mobile app development, UI/UX design, and cloud solutions.",
+
+    url: "https://www.zentrixinfotech.com/",
+    siteName: "Zentrix Infotech",
+
+    images: [
+      {
+        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Cities We Serve | Zentrix Infotech",
+      },
+    ],
+
+    locale: "en_IN",
+    type: "website",
+  },
+
+  // ✅ ✅ ✅ TWITTER CARD
+  twitter: {
+    card: "summary_large_image",
+
+    title:
+      "Cities We Serve | Zentrix Infotech",
+
+    description:
+      "Explore the list of cities where Zentrix Infotech provides affordable digital marketing, web development, software development, mobile app development, UI/UX design, and cloud solutions.",
+
+    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+  },
+
+  // ✅ ✅ ✅ FAVICON
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 const cities = [

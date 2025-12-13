@@ -20,6 +20,48 @@ export const metadata = {
   alternates: {
     canonical: "https://www.zentrixinfotech.com/cities/moradabad",
   },
+
+  // ✅ ✅ ✅ OPEN GRAPH (FOR SOCIAL SHARING)
+  openGraph: {
+    title:
+      "Digital Marketing & IT Services in Moradabad | Zentrix Infotech",
+
+    description:
+      "Zentrix Infotech provides affordable digital marketing, web development, software development, mobile app development, UI/UX design, and cloud services in Moradabad. Choose the best IT company for your business growth.",
+
+    url: "https://www.zentrixinfotech.com/",
+    siteName: "Zentrix Infotech",
+
+    images: [
+      {
+        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Digital Marketing & IT Services in Moradabad | Zentrix Infotech",
+      },
+    ],
+
+    locale: "en_IN",
+    type: "website",
+  },
+
+  // ✅ ✅ ✅ TWITTER CARD
+  twitter: {
+    card: "summary_large_image",
+
+    title:
+      "Digital Marketing & IT Services in Moradabad | Zentrix Infotech",
+
+    description:
+      "Zentrix Infotech provides affordable digital marketing, web development, software development, mobile app development, UI/UX design, and cloud services in Moradabad. Choose the best IT company for your business growth.",
+
+    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+  },
+
+  // ✅ ✅ ✅ FAVICON
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function Page() {
