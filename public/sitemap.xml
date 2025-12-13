@@ -66,10 +66,12 @@
 
   <url>
     <loc>https://www.zentrixinfotech.com/cities/moradabad/best-web-development-company-in-moradabad</loc>
+    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://www.zentrixinfotech.com/cities/moradabad/website-design-company-in-moradabad</loc>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
