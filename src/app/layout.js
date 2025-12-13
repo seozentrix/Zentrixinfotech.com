@@ -6,6 +6,24 @@ import Footer from "@/components/Footer";
 import ContactsButton from "@/components/ContactsButton";
 import PopupForm from "@/components/PopupForm";
 
+// ✅ GLOBAL SEO METADATA
+export const metadata = {
+  robots: {
+    index: true,
+    follow: true,
+    "max-snippet": -1,
+    "max-image-preview": "large",
+    "max-video-preview": -1,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

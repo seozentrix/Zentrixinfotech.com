@@ -42,4 +42,24 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://www.zentrixinfotech.com/privacy-policy</loc>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    <loc>https://www.zentrixinfotech.com/terms-of-service</loc>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    <loc>https://www.zentrixinfotech.com/cookies-policy</loc>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    <loc>https://www.zentrixinfotech.com/license</loc>
+    <priority>0.2</priority>
+  </url>
+
 </urlset>
